@@ -1,1 +1,5 @@
-Backend\config.js
+# Ignore config files with sensitive information
+
+
+
+/Backend/config.js
