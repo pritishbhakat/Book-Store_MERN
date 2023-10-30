@@ -1,3 +1,3 @@
-const URL = 'http://localhost:5555'
+const URL = 'https://book-store-server-haje.onrender.com'
 
 export {URL};
