@@ -29,6 +29,7 @@ function Home() {
     }, []);
 
     return (
+        <div className='flex flex-col justify-between gap-4'>
         <div className='p-4'>
             <div className='flex justify-center items-center gap-x-4'>
                 <button
@@ -60,6 +61,10 @@ function Home() {
             }
 
 
+        </div>
+        <div className='self-center pb-2'>
+            <h3>Developed with ♥ by PRiTiSh</h3>
+        </div>
         </div>
     )
 }

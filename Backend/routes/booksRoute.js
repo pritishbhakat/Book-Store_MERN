@@ -3,9 +3,6 @@ import { Book } from "../models/bookModel.js";
 
 const router = express.Router();
 
-
-
-
 //Route for save a new Book
 router.post('/',async(req,res)=>{
     try{
@@ -51,6 +48,7 @@ router.get('/',async (req,res)=>{
     }
 });
 
+
 // Route for GET One Book from database by id
 router.get('/:id',async (req,res)=>{
     try{
@@ -62,6 +60,7 @@ router.get('/:id',async (req,res)=>{
         res.status(500).send({message:error.message});
     }
 });
+
 
 //Route for update a book
 router.put('/:id',async (req,res)=>{

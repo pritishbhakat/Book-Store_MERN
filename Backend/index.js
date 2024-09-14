@@ -14,16 +14,10 @@ const mongoURL = process.env.mongoURL
 app.use(express.json());
 
 
-// method2:
+
 app.use(cors());
 
 
-//method1:
-// app.use(cors({
-//     origin:'http://localhost:3000',
-//     methods:['GET','POST','PUT','DELETE'],
-//     allowedHeaders:['Content-Type'],
-// }));
 
 
 app.get('/',(request,response)=>{
